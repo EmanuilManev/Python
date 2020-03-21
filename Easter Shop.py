@@ -9,7 +9,7 @@ while order != "Close":
         available += qtty
     elif order == "Buy":
         qtty = int(input())
-        if (available - qtty) > 0:
+        if (available - qtty) >= 0:
             available -= qtty
             sold += qtty
         else:
