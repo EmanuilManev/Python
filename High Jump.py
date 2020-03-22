@@ -16,4 +16,4 @@ while current <= target:
         tries = 0
     elif tries == 3:
         print("Tihomir failed at " + str(current) + "cm after " + str(count) + " jumps.")
-
+        break
