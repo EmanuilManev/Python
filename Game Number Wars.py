@@ -6,7 +6,8 @@ drawn = 0
 points_one = 0
 points_two = 0
 
-while drawn <= 36:
+while drawn <= 34:
+    print(drawn)
     card_one = input()
     if card_one == "End of game":
         print(player_one + " has " + str(points_one) + " points")
@@ -14,10 +15,6 @@ while drawn <= 36:
         break
     drawn += 1
     card_two = input()
-    if card_two == "End of game":
-        print(player_two + " has " + str(points_two) + " points")
-        print(player_two + " has " + str(points_two) + " points")
-        break
     drawn += 1
     if int(card_one) > int(card_two):
         points_one += abs(int(card_one) - int(card_two))
