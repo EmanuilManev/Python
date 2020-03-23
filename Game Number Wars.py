@@ -29,7 +29,7 @@ while drawn <= 36:
         drawn += 1
         card_two = input()
         drawn += 1
-        if card_one > card_two:
+        if int(card_one) > int(card_two):
             print(player_one + " is winner with " + str(points_one) + " points")
         else:
             print(player_two + " is winner with " + str(points_two) + " points")
