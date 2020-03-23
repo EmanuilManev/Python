@@ -7,7 +7,6 @@ points_one = 0
 points_two = 0
 
 while drawn <= 34:
-    print(drawn)
     card_one = input()
     if card_one == "End of game":
         print(player_one + " has " + str(points_one) + " points")
